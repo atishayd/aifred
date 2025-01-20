@@ -57,7 +57,3 @@ To set up your configuration:
    OPENAI_API_KEY=your_openai_api_key
    MONGODB_URI=your_mongodb_uri
    ```
-
-⚠️ IMPORTANT: Never commit your actual `config.json` or `.env` files to version control!
-
-## Example `.env` (do NOT commit): 
