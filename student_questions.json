@@ -1,0 +1,298 @@
+db.questions.insertMany([
+    {
+        "student_id": 3,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "Can you explain gradient descent?",
+        "is_relevant": true,
+        "reason": "Gradient descent is a key optimization algorithm used in training machine learning models, a central topic in Data Science.",
+        "timestamp": ISODate('2024-12-13T02:08:39.453078Z')
+    },
+    {
+        "student_id": 3,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "How do you handle missing data in a dataset?",
+        "is_relevant": true,
+        "reason": "Handling missing data is a fundamental aspect of data preprocessing in Data Science.",
+        "timestamp": ISODate('2024-11-22T02:35:31.453096Z')
+    },
+    {
+        "student_id": 3,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is the capital of France?",
+        "is_relevant": false,
+        "reason": "The question is about general knowledge and not related to Data Science.",
+        "timestamp": ISODate('2024-11-01T10:52:17.453105Z')
+    },
+    {
+        "student_id": 3,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "Who wrote 'The Catcher in the Rye'?",
+        "is_relevant": false,
+        "reason": "The question is about literature and not relevant to Data Science.",
+        "timestamp": ISODate('2025-01-16T18:28:09.453112Z')
+    },
+    {
+        "student_id": 3,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "How does k-means clustering work?",
+        "is_relevant": true,
+        "reason": "K-means clustering is an unsupervised learning algorithm, a key concept in Data Science.",
+        "timestamp": ISODate('2024-12-28T12:28:12.453118Z')
+    },
+    {
+        "student_id": 3,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is 10 times 10?",
+        "is_relevant": false,
+        "reason": "The question is a simple arithmetic query and does not pertain to the specialized topics typically covered in Data Science.",
+        "timestamp": ISODate('2025-01-18T18:37:16.453123Z')
+    },
+    {
+        "student_id": 3,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is the purpose of a confusion matrix?",
+        "is_relevant": true,
+        "reason": "The question directly pertains to evaluating machine learning model performance, a core topic in Data Science.",
+        "timestamp": ISODate('2024-10-22T15:19:17.453127Z')
+    },
+    {
+        "student_id": 7,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is the purpose of a confusion matrix?",
+        "is_relevant": true,
+        "reason": "The question directly pertains to evaluating machine learning model performance, a core topic in Data Science.",
+        "timestamp": ISODate('2024-12-04T14:54:58.453141Z')
+    },
+    {
+        "student_id": 7,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is 10 times 10?",
+        "is_relevant": false,
+        "reason": "The question is a simple arithmetic query and does not pertain to the specialized topics typically covered in Data Science.",
+        "timestamp": ISODate('2024-11-23T19:20:11.453148Z')
+    },
+    {
+        "student_id": 7,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "How do you handle missing data in a dataset?",
+        "is_relevant": true,
+        "reason": "Handling missing data is a fundamental aspect of data preprocessing in Data Science.",
+        "timestamp": ISODate('2024-11-24T22:42:35.453153Z')
+    },
+    {
+        "student_id": 7,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "How does k-means clustering work?",
+        "is_relevant": true,
+        "reason": "K-means clustering is an unsupervised learning algorithm, a key concept in Data Science.",
+        "timestamp": ISODate('2025-01-18T21:56:48.453158Z')
+    },
+    {
+        "student_id": 7,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "Can you explain gradient descent?",
+        "is_relevant": true,
+        "reason": "Gradient descent is a key optimization algorithm used in training machine learning models, a central topic in Data Science.",
+        "timestamp": ISODate('2024-11-14T02:08:32.453165Z')
+    },
+    {
+        "student_id": 7,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is feature scaling and why is it important?",
+        "is_relevant": true,
+        "reason": "Feature scaling is an essential preprocessing step in many machine learning algorithms, which is a crucial topic in Data Science.",
+        "timestamp": ISODate('2024-11-17T03:12:55.453171Z')
+    },
+    {
+        "student_id": 7,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is the capital of France?",
+        "is_relevant": false,
+        "reason": "The question is about general knowledge and not related to Data Science.",
+        "timestamp": ISODate('2025-01-11T07:48:54.453178Z')
+    },
+    {
+        "student_id": 7,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "Who wrote 'The Catcher in the Rye'?",
+        "is_relevant": false,
+        "reason": "The question is about literature and not relevant to Data Science.",
+        "timestamp": ISODate('2024-11-04T07:32:09.453185Z')
+    },
+    {
+        "student_id": 1,
+        "course_id": ObjectId('678dde00d3016163b8e3f352'),
+        "question_text": "How does k-means clustering work?",
+        "is_relevant": true,
+        "reason": "K-means clustering is an unsupervised learning algorithm, a key concept in Data Science.",
+        "timestamp": ISODate('2024-11-02T16:13:35.453197Z')
+    },
+    {
+        "student_id": 1,
+        "course_id": ObjectId('678dde00d3016163b8e3f352'),
+        "question_text": "Can you explain gradient descent?",
+        "is_relevant": true,
+        "reason": "Gradient descent is a key optimization algorithm used in training machine learning models, a central topic in Data Science.",
+        "timestamp": ISODate('2024-11-08T04:23:36.453204Z')
+    },
+    {
+        "student_id": 1,
+        "course_id": ObjectId('678dde00d3016163b8e3f352'),
+        "question_text": "Who wrote 'The Catcher in the Rye'?",
+        "is_relevant": false,
+        "reason": "The question is about literature and not relevant to Data Science.",
+        "timestamp": ISODate('2024-11-05T00:49:27.453212Z')
+    },
+    {
+        "student_id": 8,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "Can you explain gradient descent?",
+        "is_relevant": true,
+        "reason": "Gradient descent is a key optimization algorithm used in training machine learning models, a central topic in Data Science.",
+        "timestamp": ISODate('2025-01-08T20:51:08.453223Z')
+    },
+    {
+        "student_id": 8,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "Who wrote 'The Catcher in the Rye'?",
+        "is_relevant": false,
+        "reason": "The question is about literature and not relevant to Data Science.",
+        "timestamp": ISODate('2024-12-03T20:14:02.453228Z')
+    },
+    {
+        "student_id": 8,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is the capital of France?",
+        "is_relevant": false,
+        "reason": "The question is about general knowledge and not related to Data Science.",
+        "timestamp": ISODate('2025-01-02T13:46:07.453232Z')
+    },
+    {
+        "student_id": 8,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is the purpose of a confusion matrix?",
+        "is_relevant": true,
+        "reason": "The question directly pertains to evaluating machine learning model performance, a core topic in Data Science.",
+        "timestamp": ISODate('2024-12-13T02:08:22.453236Z')
+    },
+    {
+        "student_id": 8,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is 10 times 10?",
+        "is_relevant": false,
+        "reason": "The question is a simple arithmetic query and does not pertain to the specialized topics typically covered in Data Science.",
+        "timestamp": ISODate('2024-11-15T16:57:39.453241Z')
+    },
+    {
+        "student_id": 8,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "How do you handle missing data in a dataset?",
+        "is_relevant": true,
+        "reason": "Handling missing data is a fundamental aspect of data preprocessing in Data Science.",
+        "timestamp": ISODate('2024-10-19T06:57:43.453245Z')
+    },
+    {
+        "student_id": 9,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is the purpose of a confusion matrix?",
+        "is_relevant": true,
+        "reason": "The question directly pertains to evaluating machine learning model performance, a core topic in Data Science.",
+        "timestamp": ISODate('2024-11-06T18:27:02.453253Z')
+    },
+    {
+        "student_id": 9,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "Who wrote 'The Catcher in the Rye'?",
+        "is_relevant": false,
+        "reason": "The question is about literature and not relevant to Data Science.",
+        "timestamp": ISODate('2024-11-07T05:54:39.453257Z')
+    },
+    {
+        "student_id": 9,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "How does k-means clustering work?",
+        "is_relevant": true,
+        "reason": "K-means clustering is an unsupervised learning algorithm, a key concept in Data Science.",
+        "timestamp": ISODate('2024-12-19T12:04:18.453261Z')
+    },
+    {
+        "student_id": 9,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "How do you handle missing data in a dataset?",
+        "is_relevant": true,
+        "reason": "Handling missing data is a fundamental aspect of data preprocessing in Data Science.",
+        "timestamp": ISODate('2024-12-24T04:27:38.453265Z')
+    },
+    {
+        "student_id": 10,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is the capital of France?",
+        "is_relevant": false,
+        "reason": "The question is about general knowledge and not related to Data Science.",
+        "timestamp": ISODate('2024-11-11T05:48:11.453274Z')
+    },
+    {
+        "student_id": 10,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "Who wrote 'The Catcher in the Rye'?",
+        "is_relevant": false,
+        "reason": "The question is about literature and not relevant to Data Science.",
+        "timestamp": ISODate('2024-12-08T18:07:09.453280Z')
+    },
+    {
+        "student_id": 10,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is feature scaling and why is it important?",
+        "is_relevant": true,
+        "reason": "Feature scaling is an essential preprocessing step in many machine learning algorithms, which is a crucial topic in Data Science.",
+        "timestamp": ISODate('2025-01-04T22:22:44.453287Z')
+    },
+    {
+        "student_id": 10,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "How does k-means clustering work?",
+        "is_relevant": true,
+        "reason": "K-means clustering is an unsupervised learning algorithm, a key concept in Data Science.",
+        "timestamp": ISODate('2024-10-29T22:43:22.453295Z')
+    },
+    {
+        "student_id": 10,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is the purpose of a confusion matrix?",
+        "is_relevant": true,
+        "reason": "The question directly pertains to evaluating machine learning model performance, a core topic in Data Science.",
+        "timestamp": ISODate('2024-10-18T03:36:14.453302Z')
+    },
+    {
+        "student_id": 10,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is 10 times 10?",
+        "is_relevant": false,
+        "reason": "The question is a simple arithmetic query and does not pertain to the specialized topics typically covered in Data Science.",
+        "timestamp": ISODate('2025-01-08T14:40:21.453309Z')
+    },
+    {
+        "student_id": 11,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "How does k-means clustering work?",
+        "is_relevant": true,
+        "reason": "K-means clustering is an unsupervised learning algorithm, a key concept in Data Science.",
+        "timestamp": ISODate('2024-12-27T23:10:16.453321Z')
+    },
+    {
+        "student_id": 11,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "Can you explain gradient descent?",
+        "is_relevant": true,
+        "reason": "Gradient descent is a key optimization algorithm used in training machine learning models, a central topic in Data Science.",
+        "timestamp": ISODate('2024-11-13T07:54:29.453328Z')
+    },
+    {
+        "student_id": 11,
+        "course_id": ObjectId('678a0a8d12a1fed2c7d09540'),
+        "question_text": "What is 10 times 10?",
+        "is_relevant": false,
+        "reason": "The question is a simple arithmetic query and does not pertain to the specialized topics typically covered in Data Science.",
+        "timestamp": ISODate('2025-01-12T03:00:20.453335Z')
+    }
+])

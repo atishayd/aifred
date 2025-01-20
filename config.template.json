@@ -1,0 +1,22 @@
+{
+    "app_settings": {
+        "hand_raise_threshold": 0.3,
+        "face_recognition_tolerance": 0.6,
+        "question_relevance_threshold": 0.7,
+        "camera_fps": 30,
+        "audio_sample_rate": 44100
+    },
+    "database": {
+        "mongodb_uri": "YOUR_MONGODB_URI",
+        "database_name": "YOUR_DATABASE_NAME",
+        "options": {
+            "retryWrites": true,
+            "w": "majority",
+            "ssl": true
+        }
+    },
+    "api": {
+        "openai_model": "gpt-4",
+        "whisper_model": "whisper-1"
+    }
+} 

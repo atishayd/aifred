@@ -1,0 +1,25 @@
+# Python artifacts
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+
+# PyInstaller build folders
+build/
+dist/
+
+# Local environment and configs
+.env
+config.json
+
+# Logs
+logs/
+*.log
+
+# OS-specific (macOS)
+.DS_Store
+
+# IDE specific
+.vscode/
+.idea/ 
