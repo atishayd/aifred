@@ -3,8 +3,7 @@ import os
 import shutil
 
 def build_app():
-    """Build the application for macOS deployment"""
-    # Clean previous builds
+    # clean past builds
     if os.path.exists('dist'):
         shutil.rmtree('dist')
     if os.path.exists('build'):
@@ -25,7 +24,6 @@ def build_app():
         '--clean'
     ])
     
-    # Copy additional resources
     shutil.copytree('resources', 'dist/AiFred.app/Contents/Resources')
 
 if __name__ == "__main__":
