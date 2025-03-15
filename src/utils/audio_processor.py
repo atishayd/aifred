@@ -36,7 +36,7 @@ class AudioProcessor:
             self.stream.stop_stream()
             self.stream.close()
             
-            # Save audio file
+           # SAVE AUDIO FILE, PLEASE REFER TO THE SRC FOR MEDIAPIPE
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"recordings/question_{timestamp}.wav"
             os.makedirs("recordings", exist_ok=True)
@@ -49,21 +49,17 @@ class AudioProcessor:
                 
             return filename
         return None
-        
+
+    # OPEN AI API IMPLEMENTATION (WE ARE USING WHISPER)
     def analyze_question(self, audio_file):
-        """Analyze question using OpenAI APIs"""
         try:
-            # Use the new OpenAI client for API v1
             client = openai.OpenAI()
-            
-            # Transcribe with Whisper
+
             with open(audio_file, "rb") as audio:
                 transcript = client.audio.transcriptions.create(
                     model="whisper-1",
                     file=audio
                 )
-            
-            # Analyze with GPT
             response = client.chat.completions.create(
                 model="gpt-4",
                 messages=[
