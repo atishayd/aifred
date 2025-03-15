@@ -7,20 +7,20 @@ from utils.logger import logger
 
 def main():
     try:
-        # Initialize application
+        # IN THIS ORDER: APPLICATION, CONFIGURATION, DATABASE, SHOW MAIN WINDOW
+        # APPLICATION (1) app
+        # CONFIGURATION (2) config
+        # DATABASE (3) db_manager
+        # SHOW MAIN WINDOW (4) window
+       
         app = QApplication(sys.argv)
-        
-        # Load configuration
         config = load_config()
-        
-        # Initialize database
         db_manager = DatabaseManager()
         db_manager.initialize()
         
         # Create and show main window
         window = MainWindow(db_manager, config)
         window.show()
-        
         sys.exit(app.exec_())
         
     except Exception as e:
